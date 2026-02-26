@@ -1,11 +1,14 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Fashion_Blog.Models;
+using Fashion_Blog.ViewModels;
 
 namespace Fashion_Blog.Controllers;
 
 public class HomeController : Controller
 {
+    //simulating data retrieval
+    
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
