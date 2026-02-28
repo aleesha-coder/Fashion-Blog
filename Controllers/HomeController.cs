@@ -61,7 +61,38 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index() // home page = posts, categories and tags
+    {
+        var posts = GetPosts();
+
+        var viewModel = new HomeViewModel
+        {
+            FeaturedPosts = posts.Take(3).ToList(),
+            RecentPosts = posts,
+            Categories = new List<Category>
+            {
+                new Category { Id = 1, Name = "Trends", Slug = "trends"},
+                new Category { Id = 2, Name = "Style Guides", Slug = "style-guides"},
+                new Category { Id = 3, Name = "Seasonal trends", Slug = "seasonal-trends"}
+            },
+
+            PopularTags = new List<Tag>
+            {
+                new Tag { Id = 1, Name = "Winter", Slug = "winter"},
+                new Tag { Id = 2, Name = "Vintage", Slug = "vintage"},
+                new Tag { Id = 3, Name = "Summer", Slug = "summer"}
+            }
+
+        };
+        return View(viewModel);
+    }
+
+    public IActionResult About()
+    {
+        return View();
+    }
+
+    public IActionResult Contact()
     {
         return View();
     }
