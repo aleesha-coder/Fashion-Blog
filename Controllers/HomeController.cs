@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Fashion_Blog.Models;
 using Fashion_Blog.ViewModels;
 
-namespace Fashion_Blog.Controllers;
+namespace Fashion_Blog.Controllers
+{
 
 public class HomeController : Controller
 {
@@ -107,4 +108,6 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+}
+
 }
