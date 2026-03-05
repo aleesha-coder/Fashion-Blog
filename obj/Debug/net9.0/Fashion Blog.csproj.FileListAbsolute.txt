@@ -6,3 +6,95 @@ C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\Fashion Blog.MvcApplic
 C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\Fashion Blog.RazorAssemblyInfo.cache
 C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\Fashion Blog.RazorAssemblyInfo.cs
 C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\Fashion Blog.sourcelink.json
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\appsettings.json
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\Fashion Blog.staticwebassets.runtime.json
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\Fashion Blog.staticwebassets.endpoints.json
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\Fashion Blog.exe
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\Fashion Blog.deps.json
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\Fashion Blog.runtimeconfig.json
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\Fashion Blog.dll
+C:\Users\Aleesha Praemchand\Fashion Blog\bin\Debug\net9.0\Fashion Blog.pdb
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\scopedcss\bundle\Fashion Blog.styles.css
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\scopedcss\projectbundle\Fashion Blog.bundle.scp.css
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\txmlkj5gp3-q9i7ibds66.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\6xqvc0vyfz-oofcrjz93v.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\8mdr3cl88w-b9sayid5wm.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\21l7gg3o3q-61n19gt1b8.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\po85x3zn9x-xtxxf3hu2r.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\rk62sc090b-bqjiyaj88i.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\9c5vh7x5hj-c2jlpeoesf.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\77absz2drv-erw9l3u2r3.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\0e4807m5sv-aexeepp0ev.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\pehpadh6w2-d7shbmvgxk.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\qdvrnu3v51-ausgxo2sd3.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\w140uvqt1j-k8d9w2qqmf.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\mxe1u87h9k-cosvhxvwiu.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\acuylzuhpu-ub07r2b239.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\cglqiitkrh-fvhpjtyr6v.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\iow0hbks23-b7pk76d08c.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\h2itupkk1i-fsbi9cje9m.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\pco9vqonb8-rzd6atqjts.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\fwq4obza19-ee0r1s7dh0.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\ubzwjvnodv-dxx9fxp4il.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\1ua9a5w5jl-jd9uben2k1.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\gi5htgwe0b-khv3u5hwcm.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\vwrgnzjsrc-r4e9w2rdcm.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\8j3al99ia5-lcd1t2u6c8.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\hykt90qwub-c2oey78nd0.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\pypxbjnrds-tdbxkamptv.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\drqt9anm39-j5mq2jizvt.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\mxccw061iu-06098lyss8.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\p5wsw8qlqg-nvvlpmu67g.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\c7noduq2v1-s35ty4nyc5.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\8iq61zkej1-pj5nd1wqec.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\abe3mwppt0-46ein0sx1k.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\2ihdskwaqc-v0zj4ognzu.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\z0r11ncjsd-37tfw0ft22.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\6d0hz1kvrx-hrwsygsryq.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\mxwu94ibbc-pk9g2wxc8p.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\xbsxouilgz-ft3s53vfgj.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\h3vt7ui39f-6cfz1n2cew.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\86a1yyj31x-6pdc2jztkx.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\hlwi4hlgtq-493y06b0oq.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\v27twt9g1v-iovd86k7lj.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\88r4hech1u-vr1egmr9el.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\hfzh7v6zvs-kbrnm935zg.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\gyf6t4nn0q-jj8uyg4cgr.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\nr8n1vm4v5-y7v9cxd14o.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\qm8iyculsn-notf2xhcfb.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\xhj01i34yj-h1s4sie4z3.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\eiaq33lsmj-63fj8s7r0e.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\pvx79rqo5c-0j3bgjxly4.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\eie73ei0as-47otxtyo56.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\j82iqevr3d-4v8eqarkd7.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\gfn2ex3khr-356vix0kms.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\jd2ujllvq0-83jwlth58m.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\2fuuqj7v1u-mrlpezrjn3.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\nwcp8a7q1r-lzl9nlhx6b.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\ci2qvg3dkn-ag7o75518u.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\qnip81aa62-x0q3zqp4vz.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\d5l0uezirf-0i3buxo5is.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\o85h629hfc-o1o13a6vjx.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\f9x91zwny2-ttgo8qnofa.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\7jc73kkfp7-2z0ns9nrw6.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\jgjtmg7huz-muycvpuwrr.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\ngs98hlu49-87fc7y1x7t.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\rh2fd9sxx3-mlv21k5csn.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\rgfmavl5vx-w5881ocvv6.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\compressed\8yqt5yqy71-w5881ocvv6.gz
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets\msbuild.Fashion Blog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets\msbuild.Fashion Blog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets\msbuild.build.Fashion Blog.props
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Fashion Blog.props
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Fashion Blog.props
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\Fashion Blog.dll
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\refint\Fashion Blog.dll
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\Fashion Blog.pdb
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\Fashion Blog.genruntimeconfig.cache
+C:\Users\Aleesha Praemchand\Fashion Blog\obj\Debug\net9.0\ref\Fashion Blog.dll

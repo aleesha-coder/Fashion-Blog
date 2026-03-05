@@ -1,8 +1,24 @@
-﻿@{
+﻿@model Fashion_Blog.ViewModels.HomeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- Hero Section -->
+
+<section class="hero bg-light py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold">Welcome to FashionBlog</h1>
+                <p class="lead">Daily Source of Fashion Inspiration, Style Guides and the Latest Trends</p>
+                <a href="/Blog" class="btn btn-primary btn-lg">Read Our Blog</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="/images/hero-fashion.png" alt="Fashion" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Posts -->
