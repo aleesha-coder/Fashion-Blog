@@ -22,3 +22,36 @@
 </section>
 
 <!-- Featured Posts -->
+<section class="hero bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Featured Posts</h2>
+        <div class="row">
+            @if (Model?.FeaturedPosts != null)
+            {
+                @foreach (var post in Model.FeaturedPosts)
+            {
+                <div class="col-md-4">
+                    <div class="card post-card">
+                        <img src="@post.FeaturedImageUrl" class="card-img-top" alt="@post.Title">
+                        <div class="card-body">
+                            @if (post.Category != null)
+                            {
+                                <a href="/Category/@post.Category.Slug" class="category-badge mb-2 d-inline-block">@post.Category.Name</a>
+                            }
+                            <h5 class="card-title">@post.Title</h5>
+                            <p class="card-text">@post.Excerpt</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="far fa-calendar-alt"></i> @post.PublishedDate.ToString("MMM dd, yyyy")
+                                </small>
+
+                                <a href="/Blog/post/@post.Slug" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+            }
+        </div>
+    </div>
+</section>

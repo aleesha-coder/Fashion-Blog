@@ -68,7 +68,7 @@ public class HomeController : Controller
 
         var viewModel = new HomeViewModel
         {
-            FeaturedPosts = posts.Take(3).ToList(),
+            FeaturedPosts = posts.Where(p => p.Slug != null).Take(3).ToList(),
             RecentPosts = posts,
             Categories = new List<Category>
             {
