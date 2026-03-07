@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c1iRMOJfs1OUnMjwwsvXlztfH2QXroYEXJeegV0yAL0=",
+  "Hash": "qkoNQb8izhfDnmO3dZBtA8ksLFlC4lrFy/pR+miytIQ=",
   "Source": "Fashion Blog",
   "BasePath": "_content/Fashion Blog",
   "Mode": "Default",
@@ -1527,6 +1527,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\avatar-default.png",
+      "SourceId": "Fashion Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\",
+      "BasePath": "_content/Fashion Blog",
+      "RelativePath": "Images/avatar-default#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9sf533ts01",
+      "Integrity": "14EH7ROdm+T8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\avatar-default.png"
+    },
+    {
+      "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\Clothing.jpg",
+      "SourceId": "Fashion Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\",
+      "BasePath": "_content/Fashion Blog",
+      "RelativePath": "Images/Clothing#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mx0nzl7xgt",
+      "Integrity": "hnQ7H4NcCJLkP0f56wiPYcgBk+Tri3GrI+9HQhLT1cM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Clothing.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\featured-Image.jpg",
+      "SourceId": "Fashion Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\",
+      "BasePath": "_content/Fashion Blog",
+      "RelativePath": "Images/featured-Image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "styyy22izu",
+      "Integrity": "0C7vFNooh6glE5Wc6YI14Y5q+xI2yBszXCKYlsEcm9U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\featured-Image.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\hero-fashion.png",
+      "SourceId": "Fashion Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\",
+      "BasePath": "_content/Fashion Blog",
+      "RelativePath": "Images/hero-fashion#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hpjj64olco",
+      "Integrity": "hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\hero-fashion.png"
+    },
+    {
+      "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\summer1.jpg",
+      "SourceId": "Fashion Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\",
+      "BasePath": "_content/Fashion Blog",
+      "RelativePath": "Images/summer1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cifnujy6o2",
+      "Integrity": "RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\summer1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\vintage1.jpg",
+      "SourceId": "Fashion Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\",
+      "BasePath": "_content/Fashion Blog",
+      "RelativePath": "Images/vintage1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gfotmlkjuk",
+      "Integrity": "7GrSW9BV+pcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\vintage1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\winter1.jpg",
+      "SourceId": "Fashion Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\",
+      "BasePath": "_content/Fashion Blog",
+      "RelativePath": "Images/winter1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fmu2lxpj1q",
+      "Integrity": "h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\winter1.jpg"
     },
     {
       "Identity": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\js\\site.js",
@@ -4596,6 +4743,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/avatar-default.9sf533ts01.png",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\avatar-default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14EH7ROdm+T8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 10:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9sf533ts01"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/avatar-default.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-14EH7ROdm+T8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94="
+        }
+      ]
+    },
+    {
+      "Route": "Images/avatar-default.png",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\avatar-default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14EH7ROdm+T8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 10:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-14EH7ROdm+T8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Clothing.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\Clothing.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hnQ7H4NcCJLkP0f56wiPYcgBk+Tri3GrI+9HQhLT1cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Mar 2026 13:21:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hnQ7H4NcCJLkP0f56wiPYcgBk+Tri3GrI+9HQhLT1cM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Clothing.mx0nzl7xgt.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\Clothing.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hnQ7H4NcCJLkP0f56wiPYcgBk+Tri3GrI+9HQhLT1cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Mar 2026 13:21:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mx0nzl7xgt"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Clothing.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hnQ7H4NcCJLkP0f56wiPYcgBk+Tri3GrI+9HQhLT1cM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/featured-Image.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\featured-Image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0C7vFNooh6glE5Wc6YI14Y5q+xI2yBszXCKYlsEcm9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Mar 2026 16:26:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0C7vFNooh6glE5Wc6YI14Y5q+xI2yBszXCKYlsEcm9U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/featured-Image.styyy22izu.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\featured-Image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0C7vFNooh6glE5Wc6YI14Y5q+xI2yBszXCKYlsEcm9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Mar 2026 16:26:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "styyy22izu"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/featured-Image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0C7vFNooh6glE5Wc6YI14Y5q+xI2yBszXCKYlsEcm9U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/hero-fashion.hpjj64olco.png",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\hero-fashion.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 16:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hpjj64olco"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/hero-fashion.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/hero-fashion.png",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\hero-fashion.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 16:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/summer1.cifnujy6o2.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\summer1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Feb 2026 16:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cifnujy6o2"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/summer1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o="
+        }
+      ]
+    },
+    {
+      "Route": "Images/summer1.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\summer1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Feb 2026 16:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vintage1.gfotmlkjuk.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\vintage1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "183888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GrSW9BV+pcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Feb 2026 16:43:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gfotmlkjuk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/vintage1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7GrSW9BV+pcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vintage1.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\vintage1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "183888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GrSW9BV+pcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Feb 2026 16:43:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7GrSW9BV+pcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/winter1.fmu2lxpj1q.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\winter1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161599"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Feb 2026 16:40:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fmu2lxpj1q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/winter1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/winter1.jpg",
+      "AssetFile": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\winter1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161599"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Feb 2026 16:40:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4="
         }
       ]
     },

@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\Fashion Blog.w5881ocvv6.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\Clothing.jpg",
+      "PackagePath": "staticwebassets\\Images\\Clothing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\avatar-default.png",
+      "PackagePath": "staticwebassets\\Images\\avatar-default.png"
+    },
+    {
+      "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\featured-Image.jpg",
+      "PackagePath": "staticwebassets\\Images\\featured-Image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\hero-fashion.png",
+      "PackagePath": "staticwebassets\\Images\\hero-fashion.png"
+    },
+    {
+      "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\summer1.jpg",
+      "PackagePath": "staticwebassets\\Images\\summer1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\vintage1.jpg",
+      "PackagePath": "staticwebassets\\Images\\vintage1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\Images\\winter1.jpg",
+      "PackagePath": "staticwebassets\\Images\\winter1.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aleesha Praemchand\\Fashion Blog\\wwwroot\\css\\bootswatch\\sketchy\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootswatch\\sketchy\\bootstrap.css"
     },

@@ -60,6 +60,90 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Feb 2026 16:35:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/avatar-default.9sf533ts01.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\avatar-default.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9sf533ts01"},{"Name":"integrity","Value":"sha256-14EH7ROdm\u002BT8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94="},{"Name":"label","Value":"_content/Fashion Blog/Images/avatar-default.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2406"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002214EH7ROdm\u002BT8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 Jan 2026 10:15:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/avatar-default.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\avatar-default.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-14EH7ROdm\u002BT8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2406"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002214EH7ROdm\u002BT8uUK8tZ0LaDJkUmaumXzeeLWTKp35f94=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 Jan 2026 10:15:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/Clothing.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Clothing.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hnQ7H4NcCJLkP0f56wiPYcgBk\u002BTri3GrI\u002B9HQhLT1cM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"56102"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hnQ7H4NcCJLkP0f56wiPYcgBk\u002BTri3GrI\u002B9HQhLT1cM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Mar 2026 13:21:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/Clothing.mx0nzl7xgt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Clothing.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mx0nzl7xgt"},{"Name":"integrity","Value":"sha256-hnQ7H4NcCJLkP0f56wiPYcgBk\u002BTri3GrI\u002B9HQhLT1cM="},{"Name":"label","Value":"_content/Fashion Blog/Images/Clothing.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"56102"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hnQ7H4NcCJLkP0f56wiPYcgBk\u002BTri3GrI\u002B9HQhLT1cM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Mar 2026 13:21:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/featured-Image.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\featured-Image.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0C7vFNooh6glE5Wc6YI14Y5q\u002BxI2yBszXCKYlsEcm9U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"121130"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220C7vFNooh6glE5Wc6YI14Y5q\u002BxI2yBszXCKYlsEcm9U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Mar 2026 16:26:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/featured-Image.styyy22izu.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\featured-Image.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"styyy22izu"},{"Name":"integrity","Value":"sha256-0C7vFNooh6glE5Wc6YI14Y5q\u002BxI2yBszXCKYlsEcm9U="},{"Name":"label","Value":"_content/Fashion Blog/Images/featured-Image.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"121130"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220C7vFNooh6glE5Wc6YI14Y5q\u002BxI2yBszXCKYlsEcm9U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Mar 2026 16:26:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/hero-fashion.hpjj64olco.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\hero-fashion.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hpjj64olco"},{"Name":"integrity","Value":"sha256-hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg="},{"Name":"label","Value":"_content/Fashion Blog/Images/hero-fashion.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"417644"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Mar 2026 16:58:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/hero-fashion.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\hero-fashion.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"417644"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hQAjOVAb23RMTGp4cjmCSoSaGL5l6B8TGHic4Ewclkg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Mar 2026 16:58:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/summer1.cifnujy6o2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\summer1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cifnujy6o2"},{"Name":"integrity","Value":"sha256-RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o="},{"Name":"label","Value":"_content/Fashion Blog/Images/summer1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"55319"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Feb 2026 16:50:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/summer1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\summer1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"55319"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RFhhTRZQYLBSvWVEfiiiHgGYhytRVOcygAY0YaYLf4o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Feb 2026 16:50:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/vintage1.gfotmlkjuk.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\vintage1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gfotmlkjuk"},{"Name":"integrity","Value":"sha256-7GrSW9BV\u002BpcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk="},{"Name":"label","Value":"_content/Fashion Blog/Images/vintage1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"183888"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227GrSW9BV\u002BpcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Feb 2026 16:43:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/vintage1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\vintage1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7GrSW9BV\u002BpcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"183888"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227GrSW9BV\u002BpcvIyILQCkWyL0xo7okGbRvJXUZe4aYKyk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Feb 2026 16:43:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/winter1.fmu2lxpj1q.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\winter1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fmu2lxpj1q"},{"Name":"integrity","Value":"sha256-h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4="},{"Name":"label","Value":"_content/Fashion Blog/Images/winter1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"161599"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Feb 2026 16:40:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Fashion Blog/Images/winter1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\winter1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"161599"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022h7BrFARijasMPoHSfXDmQ1U4cVqbCHnbB34Q1i1J2t4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Feb 2026 16:40:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Fashion Blog/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

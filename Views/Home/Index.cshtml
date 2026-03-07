@@ -69,3 +69,26 @@
         </div>
     </div>
 </section>
+
+
+<!-- Recent Posts -->
+<section class="recent-posts py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Recent Posts</h2>
+        <div class="row">
+            @foreach (var post in Model.RecentPosts)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card post-card flex-row">
+                      <img src="@post.FeaturedImageUrl" alt="@post.Title" style="width: 200px; height: 100%;">
+                      <div class="card-body">
+                        <h5 class="card-title">@post.Title</h5>
+                        <p class="card-text">@post.Excerpt</p>
+                        <a href="/Blog/post/@post.Slug" class="btn btn-primary btn-sm">Read More</a>
+                      </div>  
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
