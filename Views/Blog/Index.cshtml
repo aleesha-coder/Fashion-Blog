@@ -3,3 +3,39 @@
 @{
     ViewData["Title"] = "Blog";
 }
+
+<div class="container py-4">
+    <h1 class="mb-4">Fashion Blog</h1>
+
+    <!-- Filters -->
+    <div class="row mb-4">
+        <div class="col-md-8">
+            @if (!string.IsNullOrEmpty(ViewBag.CurrentCategory as string))
+            {
+                <div class="alert alert-info">
+                    Showing posts in category: <strong>@ViewBag.CurrentCategory</strong>
+                    <a href="/Blog" class="float-end">Clear filter</a>
+                </div>
+            }
+
+            @if (!string.IsNullOrEmpty(ViewBag.SearchTerm as string))
+            {
+                <div class="alert alert-info">
+                    Search results for: <strong>@ViewBag.SearchTerm</strong>
+                    <a href="/Blog" class="float-end">Clear filter</a>
+                </div>
+            }
+        </div>
+
+        <div class="col-md-4">
+            <select class="form-select" id="sortSelect">
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+                <option value="popular">Most Popular</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Posts Grid -->
+    
+</div>
