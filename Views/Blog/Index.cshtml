@@ -1,4 +1,4 @@
-@model Fashion_Blog.Models.Post
+@model IEnumerable<Post>
 
 @{
     ViewData["Title"] = "Blog";
@@ -6,7 +6,7 @@
 
 <div class="container py-4">
     <h1 class="mb-4">Fashion Blog</h1>
-
+    
     <!-- Filters -->
     <div class="row mb-4">
         <div class="col-md-8">
@@ -17,16 +17,14 @@
                     <a href="/Blog" class="float-end">Clear filter</a>
                 </div>
             }
-
             @if (!string.IsNullOrEmpty(ViewBag.SearchTerm as string))
             {
                 <div class="alert alert-info">
                     Search results for: <strong>@ViewBag.SearchTerm</strong>
-                    <a href="/Blog" class="float-end">Clear filter</a>
+                    <a href="/Blog" class="float-end">Clear search</a>
                 </div>
             }
         </div>
-
         <div class="col-md-4">
             <select class="form-select" id="sortSelect">
                 <option value="newest">Newest First</option>
@@ -35,7 +33,82 @@
             </select>
         </div>
     </div>
-
-    <!-- Posts Grid -->
     
+    <!-- Posts Grid -->
+    <div class="row">
+        @if (Model.Any())
+        {
+            @foreach (var post in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card post-card">
+                        <img src="@post.FeaturedImageUrl" class="card-img-top" alt="@post.Title">
+                        <div class="card-body">
+                            <a href="/Category/@post.Category.Slug" class="category-badge mb-2 d-inline-block">@post.Category.Name</a>
+                            <h5 class="card-title">@post.Title</h5>
+                            <p class="card-text">@post.Excerpt</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <small class="text-muted d-block">
+                                        <i class="far fa-user"></i> @post.Author.DisplayName
+                                    </small>
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar"></i> @post.PublishedDate.ToString("MMM dd, yyyy")
+                                    </small>
+                                </div>
+                                <a href="/Blog/post/@post.Slug" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12 text-center py-5">
+                <h3>No posts found</h3>
+                <p>Try adjusting your search or filter criteria.</p>
+            </div>
+        }
+    </div>
+    
+    <!-- Pagination -->
+    @if (ViewBag.TotalPages > 1)
+    {
+        <nav aria-label="Page navigation" class="mt-4">
+            <ul class="pagination justify-content-center">
+                @if (ViewBag.HasPreviousPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.PageNumber - 1, category = ViewBag.CurrentCategory, search = ViewBag.SearchTerm })">Previous</a>
+                    </li>
+                }
+                
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <li class="page-item @(i == ViewBag.PageNumber ? "active" : "")">
+                        <a class="page-link" href="@Url.Action("Index", new { page = i, category = ViewBag.CurrentCategory, search = ViewBag.SearchTerm })">@i</a>
+                    </li>
+                }
+                
+                @if (ViewBag.HasNextPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.PageNumber + 1, category = ViewBag.CurrentCategory, search = ViewBag.SearchTerm })">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
 </div>
+
+@section Scripts {
+    <script>
+        document.getElementById('sortSelect').addEventListener('change', function() {
+
+            // sorting logic
+
+            console.log('Sort by:', this.value);
+        });
+    </script>
+}
