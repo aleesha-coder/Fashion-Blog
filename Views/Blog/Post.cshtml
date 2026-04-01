@@ -75,6 +75,33 @@
         </div>
 
         <!-- Comments Section -->
+        <section class="comments mb-5">
+            <h3 class="mb-4">Comments (@Model.Comments.Count)</h3>
+
+            @if (Model.Comments.Any())
+            {
+                @foreach (var comment in Model.Comments.Where(c => c.IsApproved))
+                {
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="card-subtitle mb-2 text-primary">@comment.AuthorName</h6>
+                                <small class="text-muted">@comment.CreatedAt.ToString("MMM dd, yyyy")</small>
+                            </div>
+
+                            <p class="card-text">@comment.Content</p>
+
+                        </div>
+                    </div>
+                }
+            }
+
+            else
+            {
+                <p class="text-muted">No comments yet. Be the first to comment!</p>
+            }
+        </section>
+
         
 
 
