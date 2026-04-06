@@ -1,7 +1,7 @@
 @model Fashion_Blog.ViewModels.PostDetailViewModel
 
 @{
-    ViewData["Title"] = Model.Post.Title;
+    ViewData["Title"] = Model?.Post?.Title ?? "Blog Post";
 }
 
 <div class="container py-4">
@@ -9,40 +9,55 @@
 
         <!-- Post Header -->
         <header class="mb-4">
-            <h1 class="display-4">@Model.Post.Title</h1>
+            <h1 class="display-4">@Model?.Post?.Title ?? "Untitled"</h1>
             <div class="text-muted mb-3">
-                <span>
-                    <i class="far fa-user"></i> @Model.Post.Author.DisplayName
-                </span>
+                @if (Model?.Post?.Author != null)
+                {
+                    <span>
+                        <i class="far fa-user"></i> @Model.Post.Author.DisplayName
+                    </span>
+                }
+
+                @if (Model?.Post?.Author != null)
+                {
+                    <span class="mx-2">|</span>
+                }
+
+                @if (Model?.Post != null)
+                {
+                    <span>
+                        <i class="far fa-calendar"></i> @Model.Post.PublishedDate.ToString("MMM dd, yyyy")
+                    </span>
+                }
 
                 <span class="mx-2">|</span>
 
-                <span>
-                    <i class="far fa-calendar"></i> @Model.Post.PublishedDate.ToString("MMM dd, yyyy")
-                </span>
-
-                <span class="mx-2">|</span>
-
-                <span>
-                    <i class="far fa-folder"></i>
-                    <a href="/Category/@Model.Post.Category.Slug" class="text-muted">@Model.Post.Category.Name</a>
-                </span>
+                @if (Model?.Post?.Category != null)
+                {
+                    <span>
+                        <i class="far fa-folder"></i>
+                        <a href="/Category/@Model.Post.Category.Slug" class="text-muted">@Model.Post.Category.Name</a>
+                    </span>
+                }
             </div>
         </header>
 
         <!-- the Featured Image -->
-        @if (!string.IsNullOrEmpty(Model.Post.FeaturedImageUrl))
+        @if (Model?.Post != null && !string.IsNullOrEmpty(Model.Post.FeaturedImageUrl))
         {
             <img src="@Model.Post.FeaturedImageUrl" class="img-fluid rounded mb-4" alt="@Model.Post.Title">
         }
 
         <!-- Content -->
         <div class="blog-content mb-5">
-            @Html.Raw(Model.Post.Content)
+            @if (Model?.Post != null)
+            {
+                @Html.Raw(Model.Post.Content)
+            }
         </div>
 
         <!-- Tags -->
-        @if (Model.Post.Tags != null && Model.Post.Tags.Any())
+        @if (Model?.Post?.Tags != null && Model.Post.Tags.Any())
         {
             <div class="tags mb-4">
                 <strong>Tags:</strong>
@@ -54,31 +69,34 @@
         }
 
         <!-- Author's Bio -->
-        <div class="card bg-light mb-5">
-            <div class="card-body">
-                <div class="d-flex">
-                    <div class="flex-shrink-0">
-                        <img src="@Model.Post.Author.AvatarUrl" alt="@Model.Post.Author.DisplayName" class="rounded-circle" width="80" height="80">
-                    </div>
+        @if (Model?.Post?.Author != null)
+        {
+            <div class="card bg-light mb-5">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <img src="@Model.Post.Author.AvatarUrl" alt="@Model.Post.Author.DisplayName" class="rounded-circle" width="80" height="80">
+                        </div>
 
-                    <div class="flex-grow-1 ms-3">
-                        <h5 class="card-title">About @Model.Post.Author.DisplayName</h5>
-                        <p class="card-text">@Model.Post.Author.Bio</p>
-                        @if (!string.IsNullOrEmpty(Model.Post.Author.Website))
-                        {
-                            <a href="@Model.Post.Author.Website" target="_blank" class="btn btn-sm btn-primary">Visit Website</a>
-                        }
-                    </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5 class="card-title">About @Model.Post.Author.DisplayName</h5>
+                            <p class="card-text">@Model.Post.Author.Bio</p>
+                            @if (!string.IsNullOrEmpty(Model.Post.Author.Website))
+                            {
+                                <a href="@Model.Post.Author.Website" target="_blank" class="btn btn-sm btn-primary">Visit Website</a>
+                            }
+                        </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
+        }
 
         <!-- Comments Section -->
         <section class="comments mb-5">
-            <h3 class="mb-4">Comments (@Model.Comments.Count)</h3>
+            <h3 class="mb-4">Comments (@(Model?.Comments?.Count ?? 0))</h3>
 
-            @if (Model.Comments.Any())
+            @if (Model?.Comments?.Any() ?? false)
             {
                 @foreach (var comment in Model.Comments.Where(c => c.IsApproved))
                 {
@@ -102,8 +120,60 @@
             }
         </section>
 
-        
-
+        <!-- Comment Form -->
+          <section class="comment-form">
+            <h4 class="mb-4">Leave a Comment</h4>
+            @if (Model?.NewComment != null)
+            {
+                <form asp-action="AddComment" asp-controller="Blog" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="postId" value="@Model?.Post?.Id" />
+                    
+                    <div class="mb-3">
+                        <label asp-for="NewComment.AuthorName" class="form-label">Name *</label>
+                        <input asp-for="NewComment.AuthorName" class="form-control" required />
+                        <span asp-validation-for="NewComment.AuthorName" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label asp-for="NewComment.AuthorEmail" class="form-label">Email * (will not be published)</label>
+                        <input asp-for="NewComment.AuthorEmail" class="form-control" type="email" required />
+                        <span asp-validation-for="NewComment.AuthorEmail" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label asp-for="NewComment.Content" class="form-label">Comment *</label>
+                        <textarea asp-for="NewComment.Content" class="form-control" rows="5" required></textarea>
+                        <span asp-validation-for="NewComment.Content" class="text-danger"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit Comment</button>
+                </form>
+            }
+        </section>
 
     </article>
+
+    <!-- Related Posts -->
+    @if (Model?.RelatedPosts?.Any() ?? false)
+    {
+        <section class="related-posts mt-5">
+            <h3 class="mb-4">Related Posts</h3>
+            <div class="row">
+                @foreach (var post in Model.RelatedPosts)
+                {
+                    <div class="col-md-4">
+                        <div class="card post-card">
+                            <img src="@post.FeaturedImageUrl" class="card-img-top" alt="@post.Title">
+                            <div class="card-body">
+                                <h6 class="card-title">@post.Title</h6>
+                                <a href="/Blog/post/@post.Slug" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+    }
+
 </div>
